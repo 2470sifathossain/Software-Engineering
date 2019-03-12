@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+ margin: 0;
+    padding: 0;
+     background: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Impact;
+  
+}
+
+.header {
+  width: 100%;
+  margin: 50px auto 0px;
+  color: #0bbba1;
+  background: transparent;
+  text-align: Left;
+  border: transparent;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+   
+  
+}
+form, .content {
+  width: 30%;
+  margin: 10px auto;
+  padding: 1px;
+  border: transparent;
+  background: transparent;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+  color: #ddd4da;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+color: #ddd4da;
+ 
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: transparent; 
+  border: 1px solid #3c763d;
+  
+}
